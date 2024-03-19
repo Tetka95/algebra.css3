@@ -8,24 +8,25 @@
 </head>
 <body>
     <form action="/action_page.php" style="border: 1px solid #ccc;">
-        <div>
+        <div class="container">
             <h1>Forma za prijavu</h1>
             <p>Molim unesite podatke u formu za kreiranje novog računa.</p>
             <hr>
-        <label for="mail"><b>Email</b></label>
-        <input type="text" name="mail" placeholder="Unesite Email">
-        <label for="lozinka1"><b>Lozinka</b></label>
-        <input type="password" name="lozinka1" placeholder="Unesite lozinku">
-        <label for="lozinka2"><b>Ponovite lozinku</b></label>
-        <input type="password" name="lozinka2" placeholder="Ponovite lozinku">
-        <label>
-            <input type="checkbox" name="remember" checked> Zapamti me
-        </label>
-        <p>Prilikom kreiranja računa pristajete na naše <a href="#" name="uvijeti">Uvijete korištenja.</a></p>
-        </div>
-        <div>
-            <button type="button" name="cancel">Odustani</button>
-            <button type="submit" name="signin">Prijava</button>
+            <label for="mail"><b>Email</b></label>
+                <input type="text" name="mail" placeholder="Unesite Email">
+            <label for="lozinka1"><b>Lozinka</b></label>
+                <input type="password" name="lozinka1" placeholder="Unesite lozinku">
+            <label for="lozinka2"><b>Ponovite lozinku</b></label>
+                <input type="password" name="lozinka2" placeholder="Ponovite lozinku">
+            <label>
+                <input type="checkbox" name="remember" checked style="margin-bottom: 15px ;"> Zapamti me
+            </label>
+            <p>Prilikom kreiranja računa pristajete na naše <a href="#" name="uvijeti" style="color: dodgerblue;">Uvijete korištenja.</a></p>
+        
+            <div class="clearfix">
+                <button type="button" class="cancel">Odustani</button>
+                <button type="submit" class="signin">Prijava</button>
+            </div>
         </div>
     </form>
 </body>
